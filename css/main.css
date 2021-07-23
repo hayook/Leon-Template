@@ -114,6 +114,7 @@ header .links ul {
     min-width: 200px;
     display: none;
     background: #fff;
+    z-index: 1; 
 }
 header .links ul li a {
     display: block;
@@ -385,9 +386,19 @@ header .links ul li:not(:last-child) a {
     font-weight: 800;
     font-size: 25px;
 }
-@media (max-width: 377px) {
+@media (max-width: 450px) {
     #contact .contact-content .email a {
         font-size: 20px;
+    }
+}
+@media (max-width: 365px) {
+    #contact .contact-content .email a {
+        font-size: 15px;
+    }
+}
+@media (max-width: 280px) {
+    #contact .contact-content .email a {
+        font-size: 10px;
     }
 }
 #contact .contact-content .social-media {
